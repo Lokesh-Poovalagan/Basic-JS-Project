@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(249, 255, 73);
+}
+
+.img-container{
+    width:60%;
+    height:88vh;
+    background: url("img/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0.5rem solid #a09b00;
+    border-radius: 0.5rem;
+    position: relative;
+    margin: 4rem auto;
+    box-shadow: 10px 10px 35px rgba(0,0,0,0.6);
+    
+
+}
+
+.btn-left{
+    position: absolute;
+    top: 50%;
+    left:0;
+    background-color: blueviolet;
+    transform: translate(-50%,-50%);
+    border: 0.2rem solid #3CBFF8;
+    font-size: 1.5rem;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+.btn-right{
+    position: absolute;
+    top: 50%;
+    right:0;
+    background-color: blueviolet;
+    transform: translate(50%,-50%);
+    border: 0.2rem solid #3CBFF8;
+    font-size: 1.5rem;
+    padding: 15px;
+    cursor: pointer;
+
+}
